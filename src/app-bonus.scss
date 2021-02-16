@@ -1,0 +1,40 @@
+$big-background: #dddbd1;
+$small-background: #fff5e2;
+$border: 3px outset;
+$big-title: #d33359;
+$big-title-size: 24px;
+$small-title: #ff7a59;
+$small-title-size: 18px;
+$text: #0057a8;
+$padding: 20px;
+$margin: 10px;
+
+.container {
+  width: 800px;
+  height: 600px;
+  background: $big-background;
+  border: $border;
+  padding: $padding;
+
+  &-title {
+    color: $big-title;
+    font-size: $big-title-size;
+  }
+
+  &-text {
+    color: $text;
+  }
+}
+
+.content {
+  width: 500px;
+  background: $small-background;
+  border: $border;
+  padding: $padding;
+  margin: $margin;
+
+  &-title {
+    color: $small-title;
+    font-size: $small-title-size;
+  }
+}

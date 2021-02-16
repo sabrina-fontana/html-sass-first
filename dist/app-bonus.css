@@ -1,0 +1,26 @@
+.container {
+  width: 800px;
+  height: 600px;
+  background: #dddbd1;
+  border: 3px outset;
+  padding: 20px;
+}
+.container-title {
+  color: #d33359;
+  font-size: 24px;
+}
+.container-text {
+  color: #0057a8;
+}
+
+.content {
+  width: 500px;
+  background: #fff5e2;
+  border: 3px outset;
+  padding: 20px;
+  margin: 10px;
+}
+.content-title {
+  color: #ff7a59;
+  font-size: 18px;
+}
