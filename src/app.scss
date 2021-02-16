@@ -1,0 +1,15 @@
+$big-title-color: red;
+$small-title-color: green;
+$text-color: blue;
+
+h2 {
+  color: $big-title-color;
+}
+
+h2 + p {
+  color: $text-color;
+}
+
+h3 {
+  color: $small-title-color;
+}
